@@ -1,14 +1,14 @@
 $font-primary: 'Lato', sans-serif;
 $font-secondary: 'Playfair Display', serif;
 
-$fz-large:   68px;
-$fz-h1:      calc(33px + 15 * (100vw / 1440));
-$fz-h2:      calc(24px + 16 * (100vw / 1440));
-$fz-h3:      calc(16px + 8 * (100vw / 1440));
-$fz-regPlus: calc(16px + 4 * (100vw / 1440));
-$fz-reg:     calc(14px + 4 * (100vw / 1440));
-$fz-small:   calc(14px + 2 * (100vw / 1440));
-$fz-xSmall:  calc(10px + 4 * (100vw / 1440));
+$fz-large:   calc(33px + 35 * (100vw / 1280));
+$fz-h1:      calc(33px + 15 * (100vw / 1280));
+$fz-h2:      calc(24px + 16 * (100vw / 1280));
+$fz-h3:      calc(16px + 8 * (100vw / 1280));
+$fz-regPlus: calc(16px + 4 * (100vw / 1280));
+$fz-reg:     calc(14px + 4 * (100vw / 1280));
+$fz-small:   calc(14px + 2 * (100vw / 1280));
+$fz-xSmall:  calc(10px + 4 * (100vw / 1280));
 
 $clr-primary-DarkBlue: #262A3F;
 $clr-Coral:            #d27d72;

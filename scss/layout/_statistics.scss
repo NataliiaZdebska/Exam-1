@@ -91,14 +91,6 @@
     font-family: $font-secondary;
     font-size: $fz-large;
     padding-bottom: 12px;
-
-    @media screen and(max-width: $tablet-max) {
-      font-size: 48px;
-    }
-
-    @media screen and(max-width: $mobile-max) {
-      font-size: 30px;
-    }
   }
 
   &__desc {
