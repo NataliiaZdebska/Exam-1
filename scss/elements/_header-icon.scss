@@ -1,0 +1,18 @@
+.header__icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 1px;
+  background-color: $clr-primary-DarkBlue;
+  opacity: 0.3;
+  position: relative;
+}
+
+.moon-icon {
+  color: #fff;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(9px, 9px);
+}

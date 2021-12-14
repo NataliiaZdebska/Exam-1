@@ -1,0 +1,10 @@
+@mixin font_h1 {
+  font-size: $fz-h1;
+  font-family: $font-secondary;
+  line-height: 1.18em;
+}
+
+@mixin font_h3 {
+  font-size: $fz-h3;
+  line-height: 2em;
+}

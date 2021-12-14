@@ -1,0 +1,70 @@
+.quote-banner {
+  background-image: url("../img/quote-background.png");
+  background-repeat: no-repeat;
+  height: 31vw;
+  margin: 155px auto 50px;
+  background-size: cover;
+  background-position: top;
+  z-index: -5;
+  display: flex;
+  align-items: center;
+
+  @media screen and(max-width: $tablet-max) {
+    height: auto;
+    margin: 50px auto;
+  }
+
+  &__wrapper {
+    width: 87%;
+    height: 65%;
+    margin: 0 auto;
+    z-index: 1;
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+
+  &__inner {
+    width: 75%;
+    color: #ffffff;
+    padding-left: 63px;
+
+    @media screen and(max-width: $tablet-max) {
+      width: 100%;
+      padding: 10px;
+    }
+  }
+}
+
+.quote__icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: url("../img/quote-icon.svg");
+  width: 100px;
+  height: 81px;
+}
+
+.quote__text {
+  font-size: calc(18px + 14 * (100vw / 1440));
+  line-height: 3rem;
+  padding-bottom: 40px;
+  letter-spacing: .1rem;
+
+  @media screen and(max-width: $mobile-max) {
+    padding-bottom: 25px;
+    line-height: 2rem;
+  }
+}
+
+.quote__author {
+  font-family: $font-secondary;
+  font-style: italic;
+  font-size: $fz-regPlus;
+  font-weight: 400;
+  letter-spacing: .1rem;
+
+  @media screen and(max-width: $mobile-max) {
+    font-size: $fz-small;
+  }
+}

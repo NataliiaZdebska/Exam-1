@@ -1,0 +1,56 @@
+.video-section__icon {
+  background-color: rgba(88, 98, 145, 0.3);
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+  transition: all .3s linear;
+
+  @media screen and(max-width: $tablet-max) {
+    width: 80px;
+    height: 80px;
+  }
+
+  @media screen and(max-width: $mobile-max) {
+    width: 45px;
+    height: 45px;
+  }
+
+  &:hover {
+    width: 135px;
+    height: 135px;
+    border: 2px solid rgba(88, 98, 145, 0.3);
+
+    @media screen and(max-width: $tablet-max) {
+      width: 95px;
+      height: 95px;
+    }
+
+    @media screen and(max-width: $mobile-max) {
+      width: 60px;
+      height: 60px;
+    }
+  }
+
+  &:hover .play_icon {
+    font-size: 45px;
+
+    @media screen and(max-width: $tablet-max) {
+      font-size: 30px;
+    }
+  }
+}
+
+.play_icon {
+  color: $clr-primary-DarkBlue;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all .3s linear;
+
+  @media screen and(max-width: $tablet-max) {
+    font-size: 20px;
+  }
+}

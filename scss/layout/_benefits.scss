@@ -1,0 +1,41 @@
+.benefits {
+  height: 43vw;
+  margin: 140px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: space-between;
+
+  @media screen and(max-width: $tablet-max) {
+    height: auto;
+  }
+
+  @media screen and(max-width: $mobile-max) {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+
+
+  &__block {
+    width: 47%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    @media screen and(max-width: $mobile-max) {
+      width: 100%;
+      border: 1px solid rgba(38, 42, 63, 0.3);
+      border-radius: 4px;
+      margin: 2px auto;
+    }
+  }
+
+  &__block_title {
+    padding-bottom: 24px;
+
+    @media screen and(max-width: $mobile-max) {
+      padding-bottom: 16px;
+    }
+  }
+}
