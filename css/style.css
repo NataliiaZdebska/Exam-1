@@ -692,11 +692,6 @@ li {
   }
 }
 
-.arrow_icon {
-  color: #85BBB1;
-  font-size: 3rem;
-}
-
 .reviews__text {
   font-size: calc(14px + 0.15625vw);
   line-height: 1.5rem;
@@ -1045,6 +1040,11 @@ li {
   font-family: "Playfair Display", serif;
   font-size: calc(14px + 0.3125vw);
   font-style: italic;
+}
+
+._icon-arrow {
+  color: #85BBB1;
+  font-size: 4rem;
 }
 
 /*# sourceMappingURL=style.css.map */
